@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 import { colours, weights, fontFamily } from '../../utilities/settings'
-import { mediaQuery } from '../../utilities/mediaQueries'
 
 export const Title = styled.h1`
     margin: 40px 0 25px;
@@ -12,9 +11,6 @@ export const Title = styled.h1`
 
     span {
         color: ${colours.primary};
-    }
-
-    ${mediaQuery.min_tablet} {
     }
 `
 

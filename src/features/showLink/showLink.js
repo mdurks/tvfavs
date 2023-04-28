@@ -23,7 +23,6 @@ import {
 } from './showLink.styles'
 
 export const ShowLink = ({ showData, destination, favBtnAction }) => {
-    // console.log('showData', showData);
     const dispatch = useDispatch();
 	const favourites = useSelector(selectFavourites)
     const [isShowInFavourites, setIsShowInFavourites] = useState()

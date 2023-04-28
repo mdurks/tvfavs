@@ -3,13 +3,8 @@ import { Link } from 'react-router-dom'
 import { motion } from "framer-motion";
 
 import { colours, weights, fontFamily } from '../../utilities/settings'
-import { mediaQuery } from '../../utilities/mediaQueries'
 
-export const HeaderEl = styled.header`
-
-    ${mediaQuery.min_tablet} {
-    }
-`
+export const HeaderEl = styled.header``
 
 export const BrandRow = styled(motion.div)`
     display: flex;

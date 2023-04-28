@@ -8,7 +8,6 @@ import { Title } from './search.styles'
 
 export const Search = () => {
     const { query } = useParams()
-    // console.log('search query', query);
 
 	const [searchResultsData, setSearchResultsData] = useState([])
 
@@ -21,10 +20,6 @@ export const Search = () => {
             console.log(error);
         })
     }, [query])
-
-    useEffect(() => {
-        // console.log('searchResultsData', searchResultsData);
-    }, [searchResultsData])
 
     return (
         <>

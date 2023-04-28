@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 import { colours } from '../../utilities/settings'
-import { mediaQuery } from '../../utilities/mediaQueries'
 
 export const FavBtn = styled.button`
     padding: 6px;
@@ -11,9 +10,6 @@ export const FavBtn = styled.button`
 
     svg {
         width: 30px;
-    }
-
-    ${mediaQuery.min_tablet} {
     }
 `
 

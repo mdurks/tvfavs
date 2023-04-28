@@ -25,7 +25,7 @@ import {
 
 export const Show = () => {
     const { id } = useParams()
-    // console.log('id', id);
+
     const dispatch = useDispatch();
 
 	const favourites = useSelector(selectFavourites)
